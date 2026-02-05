@@ -124,7 +124,7 @@ function prevTrack() {
   if (track_index > 0) {
     track_index -= 1;
   } else {
-		track_index = track_list.length;
+		track_index = track_list.length - 1;
 	}
 	loadTrack(track_index);
 	document.getElementById('iconoControl').src = reproducir;
@@ -161,3 +161,4 @@ function seekUpdate() {
     total_duration.textContent = durationMinutes + ":" + durationSeconds;
   }
 }
+
