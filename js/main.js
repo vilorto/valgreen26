@@ -21,6 +21,18 @@ let curr_track = document.createElement('audio');
 
 // Define las pistas que se deben reproducir
 let track_list = [
+	{
+		name: "Otra vez Marzo",
+		artist: "Marzo 2026 (a)",
+		image: "img/otra-vez-marzo.jpg?auto=compress&cs=tinysrgb&dpr=3&h=256&w=256",
+		path: "music/Otra vez Marzo.mp3"
+	},
+	{
+		name: "Monse",
+		artist: "Marzo 2026 (b)",
+		image: "img/monse.jpg?auto=compress&cs=tinysrgb&dpr=3&h=256&w=256",
+		path: "music/Monse.mp3"
+	},
 	{	
 		name: "Si al menos",
     artist: "Febrero 2026 (a)",
@@ -161,4 +173,3 @@ function seekUpdate() {
     total_duration.textContent = durationMinutes + ":" + durationSeconds;
   }
 }
-
