@@ -22,6 +22,18 @@ let curr_track = document.createElement('audio');
 // Define las pistas que se deben reproducir
 let track_list = [
 	{
+		name: "Te quise de verdad",
+		artist: "Abril 2026 (a)",
+		image: "img/te-quise-de-verdad.jpg?auto=compress&cs=tinysrgb&dpr=3&h=256&w=256",
+		path: "music/Te quise de verdad.mp3"
+	},
+	{
+		name: "Evocación",
+		artist: "Abril 2026 (b)",
+		image: "img/evocacion.jpg?auto=compress&cs=tinysrgb&dpr=3&h=256&w=256",
+		path: "music/Evocación.mp3"
+	},
+	{
 		name: "Otra vez Marzo",
 		artist: "Marzo 2026 (a)",
 		image: "img/otra-vez-marzo.jpg?auto=compress&cs=tinysrgb&dpr=3&h=256&w=256",
