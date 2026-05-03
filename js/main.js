@@ -21,6 +21,18 @@ let curr_track = document.createElement('audio');
 
 // Define las pistas que se deben reproducir
 let track_list = [
+	{	
+		name: "El primer amor nunca se va",
+    artist: "Mayo 2026 (a)",
+    image: "img/el-primer-amor-nunca-se-va.jpg?auto=compress&cs=tinysrgb&dpr=3&h=256&w=256",
+    path: "music/El primer amor nunca se va.mp3"
+  },
+	{
+		name: "Cuán efímero es el amor",
+		artist: "Mayo 2026 (b)",
+		image: "img/cuan-efimero-es-el-amor.jpg?auto=compress&cs=tinysrgb&dpr=3&h=256&w=256",
+		path: "music/Cuán efímero es el amor.mp3"
+	},
 	{
 		name: "Te quise de verdad",
 		artist: "Abril 2026 (a)",
