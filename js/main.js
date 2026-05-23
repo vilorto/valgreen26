@@ -21,6 +21,18 @@ let curr_track = document.createElement('audio');
 
 // Define las pistas que se deben reproducir
 let track_list = [
+	{
+		name: "Lo siento amor",
+		artist: "Junio 2026 (a)",
+		image: "img/lo-siento-amor.jpg?auto=compress&cs=tinysrgb&dpr=3&h=256&w=256",
+		path: "music/Lo siento amor.mp3"
+	},
+	{
+		name: "Sombras de tu bienestar",
+		artist: "Junio 2026 (b)",
+		image: "img/sombras-de-tu-bienestar.jpg?auto=compress&cs=tinysrgb&dpr=3&h=256&w=256",
+		path: "music/Sombras de tu bienestar.mp3"
+	},
 	{	
 		name: "El primer amor nunca se va",
     artist: "Mayo 2026 (a)",
