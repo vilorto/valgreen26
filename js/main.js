@@ -21,6 +21,18 @@ let curr_track = document.createElement('audio');
 
 // Define las pistas que se deben reproducir
 let track_list = [
+	{	
+		name: "Te dejé ir",
+    artist: "Julio 2026 (a)",
+    image: "img/te-deje-ir.jpg?auto=compress&cs=tinysrgb&dpr=3&h=256&w=256",
+    path: "music/Te dejé ir.mp3"
+  },
+	{
+		name: "Ecos del pasado",
+		artist: "Julio 2026 (b)",
+		image: "img/ecos-del-pasado.jpg?auto=compress&cs=tinysrgb&dpr=3&h=256&w=256",
+		path: "music/Ecos del pasado.mp3"
+	},
 	{
 		name: "Lo siento amor",
 		artist: "Junio 2026 (a)",
