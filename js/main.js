@@ -21,6 +21,18 @@ let curr_track = document.createElement('audio');
 
 // Define las pistas que se deben reproducir
 let track_list = [
+	{
+		name: "Tu nombre",
+		artist: "Agosto 2026 (a)",
+		image: "img/tu-nombre.jpg?auto=compress&cs=tinysrgb&dpr=3&h=256&w=256",
+		path: "music/Tu nombre.mp3"
+	},
+	{
+		name: "Triste es saber",
+		artist: "Agosto 2026 (b)",
+		image: "img/triste-es-saber.jpg?auto=compress&cs=tinysrgb&dpr=3&h=256&w=256",
+		path: "music/Triste es saber.mp3"
+	},
 	{	
 		name: "Te dejé ir",
     artist: "Julio 2026 (a)",
