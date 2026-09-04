@@ -21,6 +21,18 @@ let curr_track = document.createElement('audio');
 
 // Define las pistas que se deben reproducir
 let track_list = [
+	{
+		name: "Dos extraños",
+		artist: "Octubre 2026 (a)",
+		image: "img/dos-extraños.jpg?auto=compress&cs=tinysrgb&dpr=3&h=256&w=256",
+		path: "music/Dos extraños.mp3"
+	},
+	{
+		name: "Que no daría yo",
+		artist: "Octubre 2026 (b)",
+		image: "img/que-no-daria-yo.jpg?auto=compress&cs=tinysrgb&dpr=3&h=256&w=256",
+		path: "music/Que no daría yo.mp3"
+	},
 	{	
 		name: "Saltó mi Otoño",
     artist: "Septiembre 2026 (a)",
