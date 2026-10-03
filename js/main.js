@@ -22,6 +22,18 @@ let curr_track = document.createElement('audio');
 // Define las pistas que se deben reproducir
 let track_list = [
 	{
+		name: "El crepúsculo",
+		artist: "Noviembre 2026 (a)",
+		image: "img/el-crepusculo.jpg?auto=compress&cs=tinysrgb&dpr=3&h=256&w=256",
+		path: "music/El crepúsculo.mp3"
+	},
+	{
+		name: "Cerrando el tiempo",
+		artist: "Noviembre 2026 (b)",
+		image: "img/cerrando-el-tiempo.jpg?auto=compress&cs=tinysrgb&dpr=3&h=256&w=256",
+		path: "music/Cerrando el tiempo.mp3"
+	},
+	{
 		name: "Dos extraños",
 		artist: "Octubre 2026 (a)",
 		image: "img/dos-extraños.jpg?auto=compress&cs=tinysrgb&dpr=3&h=256&w=256",
